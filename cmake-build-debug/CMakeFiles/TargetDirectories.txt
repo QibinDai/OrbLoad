@@ -1,0 +1,4 @@
+/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/CMakeFiles/CarDetect.dir
+/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/CMakeFiles/MapLoad.dir

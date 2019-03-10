@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MapLoad"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CarDetect">
+				<Option output="/Users/taikihin/Documents/CLion/OrbLoad/execute/CarDetect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/taikihin/Documents/CLion/OrbLoad/execute"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 CarDetect"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CarDetect/fast">
+				<Option output="/Users/taikihin/Documents/CLion/OrbLoad/execute/CarDetect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/taikihin/Documents/CLion/OrbLoad/execute"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 CarDetect/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MapLoad">
+				<Option output="/Users/taikihin/Documents/CLion/OrbLoad/execute/MapLoad" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/taikihin/Documents/CLion/OrbLoad/execute"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 MapLoad"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MapLoad/fast">
+				<Option output="/Users/taikihin/Documents/CLion/OrbLoad/execute/MapLoad" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/taikihin/Documents/CLion/OrbLoad/execute"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 MapLoad/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/taikihin/Documents/CLion/OrbLoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/taikihin/Documents/CLion/OrbLoad/execute/CarDetectK.cpp">
+			<Option target="CarDetect"/>
+		</Unit>
+		<Unit filename="/Users/taikihin/Documents/CLion/OrbLoad/execute/main.cpp">
+			<Option target="MapLoad"/>
+		</Unit>
+		<Unit filename="/Users/taikihin/Documents/CLion/OrbLoad/src/Car.cpp">
+			<Option target="CarDetect"/>
+			<Option target="MapLoad"/>
+		</Unit>
+		<Unit filename="/Users/taikihin/Documents/CLion/OrbLoad/src/CarParameterSetting.cpp">
+			<Option target="CarDetect"/>
+			<Option target="MapLoad"/>
+		</Unit>
+		<Unit filename="/Users/taikihin/Documents/CLion/OrbLoad/src/Map.cpp">
+			<Option target="CarDetect"/>
+			<Option target="MapLoad"/>
+		</Unit>
+		<Unit filename="/Users/taikihin/Documents/CLion/OrbLoad/src/MapPoint.cpp">
+			<Option target="CarDetect"/>
+			<Option target="MapLoad"/>
+		</Unit>
+		<Unit filename="/Users/taikihin/Documents/CLion/OrbLoad/src/ORBextractor.cpp">
+			<Option target="CarDetect"/>
+			<Option target="MapLoad"/>
+		</Unit>
+		<Unit filename="/Users/taikihin/Documents/CLion/OrbLoad/src/ORBmatcher.cpp">
+			<Option target="CarDetect"/>
+			<Option target="MapLoad"/>
+		</Unit>
+		<Unit filename="/Users/taikihin/Documents/CLion/OrbLoad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/taikihin/Documents/CLion/OrbLoad/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/taikihin/Documents/CLion/OrbLoad/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/taikihin/Documents/CLion/OrbLoad/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/taikihin/Documents/CLion/OrbLoad/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
